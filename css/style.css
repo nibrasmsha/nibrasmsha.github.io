@@ -1,0 +1,376 @@
+/*Custom Style*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Julius Sans One);
+@font-face {
+	font-family: "sweet";
+	src: url('../fonts/sweet.ttf') format('truetype');
+}
+@font-face{
+	font-family: "thin";
+	src: url('../fonts/Fortheenas_01.otf') format('opentype');
+}
+body {
+	background-image:url(bckimg.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+
+}
+.image { 
+   position: relative; 
+   size: 100%; /* for IE 6 */
+}
+
+.img-circle{
+	border-radius: 100%;
+}
+.container.nomargin {
+	margin:0;
+	padding:0;
+	width:100%;
+
+}
+.padding {
+	padding:80px 0;
+}
+
+.margin {
+	margin: 30px 0;
+}
+.title {
+	font-size:6em;
+	font-family:'Montserrat',sans-serif;
+	display:block;
+}
+hr.star {
+	margin:25px auto 30px;
+	padding:0;
+	max-width:250px;
+	border:0;
+	border-top:solid 5px;
+	text-align:center;
+}
+hr.star:after {
+	color:#fff;	
+	content:"\2605";
+	position:relative;
+	top:-.8em;
+	padding:0 .25em;
+	font-size: 2.5em;
+}
+
+
+/* Navigation Styling */
+.navbar {
+	background: #263238;
+	padding: 25px;
+	opacity: 0.7;
+	filter: alpha (opacity=70);
+
+}
+.navbar .navbar-brand {
+	font-family:'sweet',sans-serif;
+	font-weight: 100;
+	color: #CFD8DC;
+	font-size: 3em;
+	font-weight: 100;
+}
+.navbar .navbar-brand:hover {
+	color: #FFC107;
+	transition: all 0.5s;
+	opacity: 1.0;
+	filter: alpha (opacity=100);
+
+}
+.navbar-inverse .navbar-nav>li>a {
+	font-family:'thin',Arial;
+	color: #FFC107;
+	font-size: 1.25em;
+
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a {
+	color: #FFC107;
+	
+}
+
+
+/* Header Styling */
+#header {
+	font: 75px'Georgia',sans-serif;
+	font-weight: 100;
+	/*background: #FAFAFA;*/
+	color: #ecf0f1;
+
+
+}
+h1{
+	font:  75px 'sweet', sans-serif;
+	font-weight: 100;
+	color: #FFC107;
+}
+h3{
+	font:  30px 'thin',serif, sans-serif;
+	color: #ecf0f1;
+	
+	}
+h4{
+	font: 20px 'thin', serif, sans-serif;
+	color: #ecf0f1;
+}
+
+p{
+	font: 16px 'thin', serif;
+	color: #ffffff;
+	font-weight: 900;
+	line-height: 2.0;
+	background: #2c3e50;
+	background-size: 100%;
+	
+}
+
+
+#header .icon {
+	
+}
+#header .skills {
+	font-size: 2.75em
+}
+
+#header hr.star:after{
+
+	
+}
+/*down arrow icon*/
+#header a:hover {
+
+
+}
+
+
+
+/* Work Styling */
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 360px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 360px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#work {
+
+	
+}
+#work img {
+
+}
+#work hr.star:after {
+
+}
+
+#work .portfolio-item {
+
+}
+
+/*Hover effect*/
+#work .portfolio-item img {
+
+}
+
+#work .portfolio-item img:hover {
+	
+
+}
+
+
+/* Contact Styling */
+ul.socials {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#contact {	
+	font-family:'Lato',sans-serif;	
+}
+#contact h4 {
+	
+}
+#contact .has-success .form-control,
+#contact .has-success .control-label {
+
+}
+
+#contact hr.star {
+
+}
+
+#contact hr.star:after {
+	
+}
+#contact .btn-social {
+	display:inline-block;
+	width:50px;
+	height:50px;
+	border:3px solid #34495e;
+	border-radius:100%;
+	text-align:center;
+	font-size:25px;
+	font-weight:900;
+	line-height:45px;
+}
+
+#contact .btn-social i {
+	
+}
+
+#contact .socials>li {
+
+}
+#contact .socials a {
+
+}
+#contact .socials>li:hover a {
+
+}
+#contact .socials>li:hover i {
+	
+}
+
+#contact .btn-primary {
+	
+}
+
+#contact .btn-primary:focus,
+#contact .btn-primary:hover{
+	
+}
+
+/* Footer Styling */
+footer {
+
+}
+
+footer p {
+	
+}
+
+
+
+/* ==== Media Queries ====*/
+
+/* iPads (Tablets) ----------- */
+@media only screen and (min-width: 768px) and (max-width : 1024px) {
+/* Styles */
+
+.title {
+
+}
+
+.padding {
+
+}
+
+#work .portfolio-item {
+	
+}
+
+#work .portfolio-item img {
+
+}
+
+#work .portfolio-item img:hover {
+	
+
+}
+
+#contact  {
+	
+}
+
+}
+
+/* Iphone/Android (Small Devices) ----------- */
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+/* Styles */
+
+.title {
+	font-size:3em;
+}
+
+.skills {
+	font-size: 1em;
+}
+
+#header .icon {
+
+}
+
+#work .portfolio-item {
+
+}
+
+#work .portfolio-item img {
+
+}
+
+#work .portfolio-item img:hover {
+
+
+}
+
+#contact .socials>li {
+
+}
+
+.margin.no_margin_mobile {
+
+}
+
+
+.contact-form button.pull-right {
+	
+}
+
+.social-media {
+
+}
+
+
+}
