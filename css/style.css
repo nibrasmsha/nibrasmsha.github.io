@@ -122,8 +122,7 @@ h4{
 }
 
 p{
-	font: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-	font-size: 16px;
+	font:  16px 'sweet', sans-serif;
 	color: #ffffff;
 	font-weight: 100;
 	line-height: 2.0;
