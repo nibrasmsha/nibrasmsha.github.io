@@ -122,7 +122,7 @@ h4{
 }
 
 p{
-	font: 16px 'thin', serif;
+	font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 	color: #ffffff;
 	font-weight: 900;
 	line-height: 2.0;
@@ -167,7 +167,7 @@ ul.img-list li {
   width: 360px;
 }
 span.text-content {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.7);
   color: white;
   cursor: pointer;
   display: table;
