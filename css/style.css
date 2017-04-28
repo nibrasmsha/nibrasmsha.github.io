@@ -168,11 +168,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 250px;
+  height: 500px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 360px;
+  width: 500px;
   opacity: 0;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
