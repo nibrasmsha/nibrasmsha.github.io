@@ -13,7 +13,7 @@
 body {
 	background-image:url(bckimg.jpg);
 	background-size: 100%;
-	background-repeat:no-repeat;
+	background-repeat: repeat-y;
 
 }
 .image { 
